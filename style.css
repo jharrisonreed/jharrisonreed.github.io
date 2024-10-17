@@ -7,18 +7,18 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color:#bfcfff;
+    color: black;
 }
 
 .container {
-    width: 80%;
-    max-width: 1200px;
+    width: 85%;
+    
     margin: auto;
 }
 
 header {
-    background: #007BFF;
+    background: #809fff;
     color: #ffffff;
     padding: 20px 0;
     text-align: center;
@@ -50,7 +50,7 @@ section {
 
 h2 {
     text-align: center;
-    color: #007BFF;
+    color: black;
 }
 
 .grid {
@@ -69,6 +69,17 @@ h2 {
 
 .project h3 {
     margin-top: 0;
+}
+
+/* Add these styles to include bullets inside the box */
+.container ul {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+     margin: 0; /* Remove margins */
+}
+
+.container ul li {
+    margin: 5px 0; /* Add vertical spacing between items */
 }
 
 form {
@@ -105,15 +116,22 @@ form button:hover {
 footer {
     text-align: center;
     padding: 10px 0;
-    background: #007BFF;
+    background: #809fff;
     color: #ffffff;
     position: relative;
     bottom: 0;
     width: 100%;
 }
 
+.skillBox {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: lightgray;
+    border-radius: 8px;
+    padding: 10px; /* Add padding to the box */
+}
 #skills, #about, #projects, #contact {
-    background-color:#0056b3;
+    background-color: #6b80c2;
     margin:25px;
     border-radius:8px;
 }
