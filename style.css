@@ -3,7 +3,7 @@
 }
 
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: verdana;
     line-height: 1.6;
     margin: 0;
     padding: 0;
@@ -110,4 +110,10 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
+}
+
+#skills, #about, #projects, #contact {
+    background-color:#0056b3;
+    margin:25px;
+    border-radius:8px;
 }
