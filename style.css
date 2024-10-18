@@ -205,6 +205,8 @@ footer {
     line-height: 1.6;
 }
 
+
+
 /* Mobile view adjustments */
 @media (max-width: 768px) {
     .contact-info {
