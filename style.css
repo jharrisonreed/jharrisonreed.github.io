@@ -71,15 +71,13 @@ h2 {
     margin-top: 0;
 }
 
-/* Add these styles to include bullets inside the box */
 .container ul {
     list-style-type: none; /* Remove bullets */
-    padding: 0; /* Remove padding */
-     margin: 0; /* Remove margins */
-}
+    padding: 0; 
+     margin: 0; 
 
 .container ul li {
-    margin: 5px 0; /* Add vertical spacing between items */
+    margin: 5px 0; 
 }
 
 form {
@@ -189,6 +187,7 @@ footer {
     display: flex; /* Use flex to balance height */
     flex-direction: column;
     justify-content: flex-start; /* Ensure the text starts at the top */
+    color: white;
 }
 
 
