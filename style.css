@@ -128,7 +128,7 @@ footer {
     border-radius: 8px;
     padding: 10px; /* Add padding to the box */
 }
-#skills, #about, #projects, #contact {
+#skills, #about, #projects, #contact, #CV {
     background-color: #6b80c2;
     margin:25px;
     border-radius:8px;
@@ -148,6 +148,7 @@ footer {
     border-radius: 8px;
     width: 30%;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px; /* Add margin to create space between boxes */
 }
 
 /* Icons styling */
@@ -167,6 +168,7 @@ footer {
 .contact-item a:hover {
     color: #004a7c;
 }
+
 
 /* Container layout to position image and text side by side */
 .about-container {
@@ -205,6 +207,9 @@ footer {
     line-height: 1.6;
 }
 
+#CV {
+    color:white;
+}
 
 
 /* Mobile view adjustments */
